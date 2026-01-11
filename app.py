@@ -315,7 +315,7 @@ def load_data():
     except:
         try:
             # Try parent directory path
-            df = pd.read_csv("../Finance/UC-Schools/UC_Schools_Admission_Rankings.csv")
+            df = pd.read_csv("../data/UC_Schools_Admission_Rankings.csv")
         except:
             # Fallback for local development
             df = pd.read_csv("/Users/muskan.kukreja/Documents/mk-git-test/Finance/UC-Schools/UC_Schools_Admission_Rankings.csv")
